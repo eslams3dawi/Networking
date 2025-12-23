@@ -1,63 +1,117 @@
 # Networking – Subnetting, VLSM & Static Routing
 
-This repository contains practical networking labs and projects implemented using **Cisco Packet Tracer**, focusing on **Subnetting**, **VLSM (Variable Length Subnet Masking)**, and **Static Routing**.  
-All scenarios were implemented as part of hands-on training and a practical networking exam.
+This repository contains **practical networking implementations** using **Cisco Packet Tracer**.
+It focuses on **Subnetting**, **VLSM**, and **Static Routing**, with a strong emphasis on
+**visual proof of correct configuration using Ping and router configuration screenshots**.
 
 ---
 
-## 🧠 What I Implemented
+## 📁 Repository Structure Overview
 
-### 🔹 Subnetting
-- Designed multiple network topologies including:
-  - Two subnets network
-  - Multiple subnets using different network modules
-  - Advanced subnetting with three subnets
-- Performed full subnetting calculations:
-  - Network Address
-  - Broadcast Address
-  - Valid Host Range
-  - Subnet Mask
-- Configured:
-  - IP addressing for PCs
-  - Router interfaces
-- Verified connectivity using **ping**.
-- Added PNG screenshots for clear visualization of each topology.
+- Subnetting (Basic & Advanced)
+- VLSM & Static Routing
+- Practical Exam (Full documented solution)
 
 ---
 
-### 🔹 VLSM (Variable Length Subnet Masking)
-- Implemented VLSM to optimize IP address allocation.
-- Designed networks with:
-  - Different subnet sizes based on host requirements
-- Assigned:
-  - Correct subnet masks for each subnet
-  - Valid IP ranges without wasting addresses
-- Ensured full connectivity between all subnets.
+## ⭐ The Most Important Part
+✔️ Network Design  
+✔️ Correct IP Addressing  
+✔️ Router Configuration  
+✔️ **Ping Proof (Connectivity Verification)**  
+
+> All screenshots are included to prove that the networks are **working, not only designed**.
 
 ---
 
-### 🔹 Static Routing
-- Configured **static routing** between routers using:
-  - `ip route` commands
-- Enabled communication between different LANs.
-- Tested routing paths to ensure:
-  - End-to-end connectivity
-  - No unreachable networks or routing loops.
+# 🔹 Subnetting Section (With Full Proof)
 
 ---
 
-### 🔹 Practical Exam Solution
-- Full solution for a **Networking Practical Exam**, including:
-  - Network design
-  - Subnetting and VLSM
-  - Router configurations
-  - Static routing
-- Provided:
-  - Complete `.pkt` solution files
-  - Step-by-step screenshots showing:
-    - Network topology
-    - Router configuration commands
-- All exam requirements were successfully implemented and tested.
+## 1️⃣ Two Subnets Network
+
+### 📌 Network Topology
+![Two Subnets Topology](Subnetting/1.Two%20Subnets%20Network.png)
+
+---
+
+### ✅ Ping Verification
+Ping between devices in different subnets – **successful connectivity**.
+
+![Ping Two Subnets](Subnetting/1.(Ping)Two%20Subnets%20Network.png)
+
+---
+
+## 2️⃣ Multiple Subnets using NM-4E
+
+### 📌 Network Topology
+Router configured with **NM-4E module** to support multiple subnets.
+
+![Subnets NM-4E](Subnetting/2.Subnets%20(NM-4E).png)
+
+---
+
+## 3️⃣ Advanced Subnetting – Three Subnets
+
+### 📌 Network Topology
+Advanced subnetting with **three different subnets**.
+
+![Three Subnets Topology](Subnetting/3.Three%20Subnets%20Network%20-%20Advanced%20Network%20Subnetting.png)
+
+---
+
+### ✅ Ping Verification
+Successful ping across all three subnets.
+
+![Ping Three Subnets](Subnetting/3.(Ping)Three%20Subnets%20Network%20-%20Advanced%20Network%20Subnetting.png)
+
+---
+
+# 🔹 VLSM & Static Routing – Practical Exam
+
+This section contains the **full practical exam solution** with screenshots proving every step.
+
+---
+
+## 🧪 Practical Exam – Network Design
+
+### 📌 Initial Network Topology
+![Practical Exam Network](VLSM%20&%20Static%20Routing/Practical%20Exam/1.1Network%20Screen%20My%20Practical%20Exam%20Solution.png)
+
+---
+
+## ⚙️ Router Configuration
+
+### 📌 Router Commands & Interfaces
+![Router Configurations](VLSM%20&%20Static%20Routing/Practical%20Exam/1.2Router%20Configurations%20-My%20Practical%20Exam%20Solution_2.png)
+
+---
+
+### 📌 Continue Router Configuration
+Static routes and interface completion.
+
+![Continue Router Config](VLSM%20&%20Static%20Routing/Practical%20Exam/1.3Continue%20with%20Router%20Configurations.png)
+
+---
+
+## 📦 Practical Exam Packet Tracer Files
+- `1.My Practical Exam Solution.pkt`
+- `My Practical Exam Solution.pkt`
+
+---
+
+# 🔹 VLSM Projects
+
+The following Packet Tracer projects demonstrate **efficient IP allocation using VLSM**:
+
+- `VLSM Project.pkt`
+- `VLSM-Four Subnets.pkt`
+- `VLSM & Normal Subnetting With Router Configurations (My Practical Exam Solution).pkt`
+
+Each project applies:
+- Variable subnet sizes
+- Optimized IP usage
+- Correct routing between subnets
 
 ---
 
@@ -71,15 +125,18 @@ All scenarios were implemented as part of hands-on training and a practical netw
 
 ---
 
-## ▶️ How to Run
-1. Open any `.pkt` file using **Cisco Packet Tracer**.
-2. Review IP addressing and router configurations.
-3. Use `ping` and `tracert` to test network connectivity.
-4. Refer to PNG screenshots for topology and configuration guidance.
+## 👤 Author
+**Eslam Seadawy**  
+Networking & Backend Developer (.NET)  
+GitHub: https://github.com/eslams3dawi
 
 ---
----
 
-## 📌 Notes
-- This repository is intended for **learning, practice, and academic reference**.
-- All implementations follow standard networking best practices.
+## 📌 Final Notes
+- All screenshots are **real proof of successful configuration**.
+- This repository is suitable for:
+  - Academic submission
+  - Practical exam reference
+  - Portfolio showcase
+
+⭐ If you find this repository useful, feel free to star it.
